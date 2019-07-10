@@ -73,6 +73,25 @@ else if favoriteFood == "Starbucks" {
 var hasAccount = "false"
 if hasAccount == "false" {
     print("Let's get some information to create an account for you")
+    
+}
 
+func walkDog(numberOfDogs : Int) {
+        print ("walk to the leash")
+        print ("summon dog")
+        print ("attach leash on dog's collar")
+        print ("walk to shoes and put on")
+        print ("gather belongings and leash")
+        print ("walk to front door, open door, walk out with dog, and close door")
+        print ("walk forward with dog")
+        print ("There are \(numberOfDogs) dogs in the house.")
+    
+}
+walkDog(numberOfDogs:3)
+
+
+
+func hello() {
+    print ("Hello, Jessica!")
 }
 
